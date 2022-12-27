@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 2.8rem 1.6rem;
+}
+
+.container {
+  background-color: var(--white);
+  width: 60rem;
+  height: 45rem;
+  display: flex;
+  border-radius: 1rem;
+}
+
+.image {
+  content: url("./images/image-product-desktop.jpg");
+  border-radius: 1rem 0 0 1rem;
+}
+
+.details {
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details > * {
+  margin: 0;
+}
+
+.product-type {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  color: var(--dark-grayish-blue);
+}
+
+h1 {
+  font-family: Fraunces;
+  font-size: 3.2rem;
+  color: var(--very-dark-blue);
+}
+
+.description {
+  color: var(--dark-grayish-blue);
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price span:first-child {
+  color: var(--dark-cyan);
+  font-family: Fraunces;
+  font-size: 3.2rem;
+  margin-right: 0.9rem;
+}
+
+.price span:last-child {
+  color: var(--dark-grayish-blue);
+  text-decoration: line-through;
+  font-size: 1.3rem;
+  font-family: Montserrat;
+}
+
+button {
+  padding: 1.5rem 0;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  font-family: Montserrat;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--deep-cyan);
+}
+
+@media only screen and (max-width: 632px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .image {
+    content: url("./images/image-product-mobile.jpg");
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .details {
+    padding: 2.4rem;
+  }
+
+  h1 {
+    margin-top: 1.2rem !important;
+    margin-bottom: 1.6rem !important;
+  }
+
+  .price {
+    margin-top: 2.4rem;
+    margin-bottom: 2rem;
+  }
+}
+
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --deep-cyan: #1a4032;
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
