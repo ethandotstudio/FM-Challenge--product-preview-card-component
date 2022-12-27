@@ -29,8 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/ethandotstudio/FM-Challenge--product-preview-card-component)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://ethandotstudio.github.io/FM-Challenge--product-preview-card-component/)
 
 ## My process
 
@@ -42,6 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ethan Le](https://www.your-site.com)
+- Ethan Le
 - Frontend Mentor - [@ethandotstudio](https://www.frontendmentor.io/profile/ethandotstudio)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
