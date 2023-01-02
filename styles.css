@@ -92,6 +92,12 @@ button img {
   }
 }
 
+@media (pointer: fine) {
+  button:hover {
+    background-color: var(--deep-cyan);
+  }
+}
+
 :root {
   --dark-cyan: hsl(158, 36%, 37%);
   --deep-cyan: #1a4032;
